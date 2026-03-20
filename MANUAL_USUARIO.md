@@ -1,6 +1,6 @@
-# Manual de Usuario - VacaMetric
+# Manual de Usuario - PigVision
 
-## 📱 Guía de Uso de la Aplicación
+## 📱 Guía de Uso de la Aplicación Móvil
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## 1. Introducción
 
-### ¿Qué es VacaMetric?
+### ¿Qué es PigVision?
 
-VacaMetric es una aplicación móvil que te permite **estimar el peso de ganado bovino** de manera rápida y precisa usando solo una fotografía. La aplicación utiliza inteligencia artificial para analizar la imagen y calcular el peso estimado del animal.
+PigVision es una aplicación móvil que te permite **estimar el peso de cerdos** de manera rápida y precisa usando solo una fotografía. La aplicación utiliza inteligencia artificial avanzada para analizar la imagen y calcular el peso estimado de forma automática.
 
-### Ventajas de usar VacaMetric
+### Ventajas de usar PigVision
 
-✅ **Rápido**: Obtén el peso en segundos  
-✅ **Preciso**: Tecnología de IA con ~95% de precisión  
-✅ **Fácil de usar**: Solo necesitas tomar una foto  
-✅ **Historial**: Guarda todas tus estimaciones  
+✅ **Rápido**: Obtén la estimación en segundos  
+✅ **Preciso**: Tecnología de IA con alta precisión  
+✅ **Fácil de usar**: Solo necesitas tomar una foto clara  
+✅ **Historial**: Guarda todas tus estimaciones localmente  
 ✅ **Sin contacto**: No necesitas tocar al animal  
+✅ **Interfaz moderna**: Diseño intuitivo en tonos azul y blanco  
 
 ---
 
@@ -97,18 +98,19 @@ VacaMetric es una aplicación móvil que te permite **estimar el peso de ganado 
 
 #### Paso 1: Ir a la opción de captura
 
-1. En el menú principal, presiona **"Tomar Foto"** o **"Estimar Peso"**
+1. En el menú principal, presiona **"Estimar Peso"** para acceder a la cámara
 
 #### Paso 2: Preparar la fotografía
 
 📸 **Consejos para una buena foto**:
-- Asegúrate de que la vaca esté completamente visible
-- Toma la foto desde un lateral (perfil de la vaca)
-- Mantén una distancia de 3-5 metros
-- Evita que haya obstáculos entre la cámara y la vaca
+- Asegúrate de que el cerdo esté completamente visible
+- Toma la foto desde un lateral (perfil del cerdo)
+- Mantén una distancia de 2-3 metros
+- Evita que haya obstáculos entre la cámara y el animal
 - Procura buena iluminación (luz natural es mejor)
-- La vaca debe estar de pie, no acostada
+- El cerdo debe estar de pie, no acostado
 - Evita sombras muy marcadas
+- Coloca el cerdo sobre una superficie clara para mejor contraste
 
 #### Paso 3: Capturar la imagen
 
@@ -116,13 +118,13 @@ Tienes dos opciones:
 
 **Opción A: Usar la cámara**
 1. Presiona el botón **"Abrir Cámara"**
-2. Apunta a la vaca siguiendo los consejos anteriores
+2. Apunta al cerdo siguiendo los consejos de fotografía anteriores
 3. Presiona el botón de captura
-4. Si la foto es buena, confírmala; si no, toma otra
+4. Si la foto es clara, confírmala; si no, toma otra
 
 **Opción B: Seleccionar de galería**
-1. Presiona **"Seleccionar de Galería"**
-2. Busca la foto de la vaca en tu galería
+1. Presiona **"Galería"**
+2. Busca una foto clara del cerdo en tu galería
 3. Selecciónala
 
 #### Paso 4: Procesar imagen
@@ -137,15 +139,16 @@ Tienes dos opciones:
 #### Paso 5: Ver resultado
 
 1. La app mostrará el **peso estimado en kilogramos**
-2. Ejemplo: "Peso estimado: 425.5 kg"
-3. La estimación se guardará automáticamente en el historial
+2. Ejemplo: "Peso estimado: 85.5 kg"
+3. La estimación se guardará automáticamente en el historial local
+4. Se muestra un indicador de "Análisis completado"
 
 #### Paso 6: Opciones post-estimación
 
 Puedes:
-- **Guardar**: El resultado ya está guardado automáticamente
-- **Nueva foto**: Presiona "Tomar otra foto" para estimar otra vaca
-- **Ver historial**: Ve a la sección de historial
+- **Resultado guardado**: Ya está almacenado automáticamente en historial
+- **Nueva Foto**: Presiona "Nueva Foto" para estimar otro cerdo
+- **Ver Historial**: Regresa al menú y presiona "Historial" para ver todas las estimaciones
 
 ---
 
@@ -185,19 +188,17 @@ Para cada estimación verás:
 
 ### 5.3 Menú Principal
 
-El menú principal te permite navegar entre:
+El menú principal de PigVision te ofrece dos opciones principales:
 
-1. **Tomar Foto / Estimar Peso**
-   - Captura nueva imagen y calcula peso
+1. **Estimar Peso** (Botón azul turquesa - #4e9ec5)
+   - Captura nueva imagen del cerdo
+   - Procesa con IA y obtiene estimación
+   - Subtítulo: "Toma una foto de tu cerdo"
 
-2. **Historial**
-   - Consulta estimaciones previas
-
-3. **Configuración** *(futuro)*
-   - Ajustes de la aplicación
-
-4. **Ayuda** *(futuro)*
-   - Guía de uso y soporte
+2. **Historial** (Botón azul oscuro - #3f7898)
+   - Consulta todas las estimaciones previas
+   - Ver fotos y pesos estimados
+   - Subtítulo: "Ver estimaciones previas"
 
 ---
 

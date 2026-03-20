@@ -1,4 +1,4 @@
-# Manual Técnico - VacaMetric
+# Manual Técnico - PigVision
 
 ## 📚 Índice
 1. [Introducción](#introducción)
@@ -17,7 +17,7 @@
 ## 1. Introducción
 
 ### 1.1 Propósito del Documento
-Este manual técnico describe la arquitectura, componentes, tecnologías y procesos de desarrollo del sistema VacaMetric, una aplicación móvil para la estimación del peso de ganado bovino mediante inteligencia artificial.
+Este manual técnico describe la arquitectura, componentes, tecnologías y procesos de desarrollo del sistema PigVision, una aplicación móvil para la estimación inteligente del peso de cerdos mediante análisis de imágenes con inteligencia artificial.
 
 ### 1.2 Alcance
 El sistema está compuesto por:
@@ -98,9 +98,9 @@ Front/
 │   ├── navigation/              # Sistema de navegación
 │   │   └── AppNavigator.tsx     # Navegador principal
 │   ├── screens/                 # Pantallas de la app
-│   │   ├── TomarFotoVacaScreen.tsx    # Captura de imagen
+│   │   ├── TomarFotoScreen.tsx        # Captura y estimación
 │   │   ├── MenuRegistroScreen.tsx     # Menú principal
-│   │   └── HistorialScreen.tsx        # Historial
+│   │   └── HistorialScreen.tsx        # Historial de estimaciones
 │   └── services/                # Servicios externos
 │       └── api.ts               # Cliente API
 ├── assets/                      # Recursos estáticos
@@ -119,21 +119,22 @@ Front/
 - Transiciones entre pantallas
 ```
 
-#### 3.3.2 TomarFotoVacaScreen.tsx
-**Responsabilidad**: Captura y procesamiento de imágenes
+#### 3.3.2 TomarFotoScreen.tsx
+**Responsabilidad**: Captura y procesamiento de imágenes de cerdos
 
 **Funcionalidades**:
 - Solicitud de permisos de cámara
-- Captura de foto
-- Envío a API
+- Captura de foto desde cámara o galería
+- Envío a API para análisis IA
 - Manejo de estados (cargando, error, éxito)
+- Visualización de resultados de estimación
 
 #### 3.3.3 api.ts
 **Responsabilidad**: Comunicación con el backend
 
 **Métodos**:
-- `estimarPesoVaca(fotoUri: string): Promise<number>`
-- `guardarEnHistorial(fotoUri: string, peso: number): Promise<void>`
+- `estimarPesoVaca(fotoUri: string): Promise<number>` - Envía imagen al backend para estimación
+- Manejo de historial almacenado localmente en AsyncStorage
 
 **Configuración**:
 ```typescript
