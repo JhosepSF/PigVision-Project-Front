@@ -125,7 +125,24 @@ Front/
 - **Expo Image Picker**: Selección de imágenes
 
 ## 📱 Capturas de Pantalla
-_(Agregar capturas de pantalla de la aplicación)_
+
+#### Pantalla Principal
+![Pantalla Principal](assets/1.jpeg)
+
+#### Captura de Foto
+![Pantalla de Captura](assets/2.jpeg)
+
+#### Procesamiento de Imagen
+![Pantalla de Comprobación del Cerdo](assets/3.jpeg)
+
+#### Resultado de Estimación
+![Pantalla de Análisis](assets/4.jpeg)
+
+#### Historial de Estimaciones
+![Pantalla de Estimación](assets/5.jpeg)
+
+#### Detalles del Historial
+![Pantalla de Historial de Estimaciones](assets/6.jpeg)
 
 ## 🐛 Solución de Problemas
 
